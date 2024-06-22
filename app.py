@@ -6,7 +6,7 @@ import numpy as np
 app = Flask(__name__)
 CORS(app)
 # Load the serialized model
-model = joblib.load('Blood-Samples/Anemia_Diagnosis.pkl')
+model = joblib.load('Anemia_Diagnosis.pkl')
 
 # Define mapping between encoded values and anemia names
 anemia_mapping = {
